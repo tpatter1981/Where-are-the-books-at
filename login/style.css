@@ -1,0 +1,39 @@
+
+    
+
+button{
+    color: aliceblue;
+    border-radius: 20px;
+
+}
+img{
+    border-radius: 250%;
+}
+.h1,h2,h3,h4,p{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    
+    background: #fc90e6;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee24a0, #d836ad, #dd3687, #b44561);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #da24ee, #d836c0, #dd368f, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }

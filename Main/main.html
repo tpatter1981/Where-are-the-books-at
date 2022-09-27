@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<title>Where are the books at!</title>
+</head>
+<body>
+    <!---Navbar-->
+    <a href="#" class="wh-bar-item wh-button wh-hide-small wh-right wh-padding-large wh-hover-white" title="My Account">
+        <img src="/whimages/avatar2.png" class="wh-circle" style="height:23px;width:23px" alt="Avatar">
+      </a>
+     </div>
+    </div>
+    
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="wh-bar-block">
+      <a href="#" class="wh-bar-item wh-button wh-padding-large">Fan Fiction</a>
+      <a href="#" class="wh-bar-item wh-button wh-padding-large">Show Your Bookself</a>
+      <a href="#" class="wh-bar-item wh-button wh-padding-large">Naughty Librarian Recs</a>
+      <a href="#" class="wh-bar-item wh-button wh-padding-large">My Profile</a>
+    </div>
+    
+    <!-- Page Container -->
+    <div class="wh-container wh-content" style="max-width:1400px;margin-top:80px">    
+      <!-- The Grid -->
+      <div class="wh-row">
+        <!-- Left Column -->
+        <div class="wh-col m3">
+          <!-- Profile -->
+          <div class="wh-card wh-round wh-white">
+            <div class="wh-container">
+             <h4 class="wh-center">My Profile</h4>
+             <p class="wh-center"><img src="/whimages/avatar3.png" class="wh-circle" style="height:106px;width:106px" alt="Avatar"></p>
+             <hr>
+          
+            </div>
+          </div>
+          <br>
+          
+          <!-- Accordion -->
+          <div class="wh-card wh-round">
+            <div class="wh-white">
+              <button onclick="myFunction('Demo1')" class="wh-button wh-block wh-theme-l1 wh-left-align"><i class="fa fa-circle-o-notch fa-fw wh-margin-right"></i> My Groups</button>
+              <div id="Demo1" class="wh-hide wh-container">
+                <p>Some text..</p>
+              </div>
+              <button onclick="myFunction('Demo2')" class="wh-button wh-block wh-theme-l1 wh-left-align"><i class="fa fa-calendar-check-o fa-fw wh-margin-right"></i> My Events</button>
+              <div id="Demo2" class="wh-hide wh-container">
+                <p>Some other text..</p>
+              </div>
+              <button onclick="myFunction('Demo3')" class="wh-button wh-block wh-theme-l1 wh-left-align"><i class="fa fa-users fa-fw wh-margin-right"></i> My Photos</button>
+              <div id="Demo3" class="wh-hide wh-container">
+             <div class="wh-row-padding">
+             <br>
+               <div class="wh-half">
+                 <img src="/whimages/lights.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+               <div class="wh-half">
+                 <img src="/whimages/nature.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+               <div class="wh-half">
+                 <img src="/whimages/mountains.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+               <div class="wh-half">
+                 <img src="/whimages/forest.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+               <div class="wh-half">
+                 <img src="/whimages/nature.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+               <div class="wh-half">
+                 <img src="/whimages/snow.jpg" style="width:100%" class="wh-margin-bottom">
+               </div>
+             </div>
+              </div>
+            </div>      
+          </div>
+          <br>
+          
+          <!-- Interests --> 
+          <div class="wh-card wh-round wh-white wh-hide-small">
+            <div class="wh-container">
+              <p>Interests</p>
+              <p>
+                <span class="wh-tag wh-small wh-theme-d5">News</span>
+                <span class="wh-tag wh-small wh-theme-d4">whSchools</span>
+                <span class="wh-tag wh-small wh-theme-d3">Labels</span>
+                <span class="wh-tag wh-small wh-theme-d2">Games</span>
+                <span class="wh-tag wh-small wh-theme-d1">Friends</span>
+                <span class="wh-tag wh-small wh-theme">Games</span>
+                <span class="wh-tag wh-small wh-theme-l1">Friends</span>
+                <span class="wh-tag wh-small wh-theme-l2">Food</span>
+                <span class="wh-tag wh-small wh-theme-l3">Design</span>
+                <span class="wh-tag wh-small wh-theme-l4">Art</span>
+                <span class="wh-tag wh-small wh-theme-l5">Photos</span>
+              </p>
+            </div>
+          </div>
+          <br>
+          
+          <!-- Alert Box -->
+          <div class="wh-container wh-display-container wh-round wh-theme-l4 wh-border wh-theme-border wh-margin-bottom wh-hide-small">
+            <span onclick="this.parentElement.style.display='none'" class="wh-button wh-theme-l3 wh-display-topright">
+              <i class="fa fa-remove"></i>
+            </span>
+            <p><strong>Hey!</strong></p>
+            <p>People are looking at your profile. Find out who.</p>
+          </div>
+        
+        <!-- End Left Column -->
+        </div>
+        
+        <!-- Middle Column -->
+        <div class="wh-col m7">
+        
+          <div class="wh-row-padding">
+            <div class="wh-col m12">
+              <div class="wh-card wh-round wh-white">
+                <div class="wh-container wh-padding">
+                  <h6 class="wh-opacity">Social Media template by wh.css</h6>
+                  <p contenteditable="true" class="wh-border wh-padding">Status: Feeling Blue</p>
+                  <button type="button" class="wh-button wh-theme"><i class="fa fa-pencil"></i>  Post</button> 
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="wh-container wh-card wh-white wh-round wh-margin"><br>
+            <img src="/whimages/avatar2.png" alt="Avatar" class="wh-left wh-circle wh-margin-right" style="width:60px">
+            <span class="wh-right wh-opacity">1 min</span>
+            <h4>John Doe</h4><br>
+            <hr class="wh-clear">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="wh-row-padding" style="margin:0 -16px">
+                <div class="wh-half">
+                  <img src="/whimages/lights.jpg" style="width:100%" alt="Northern Lights" class="wh-margin-bottom">
+                </div>
+                <div class="wh-half">
+                  <img src="/whimages/nature.jpg" style="width:100%" alt="Nature" class="wh-margin-bottom">
+              </div>
+            </div>
+            <button type="button" class="wh-button wh-theme-d1 wh-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+            <button type="button" class="wh-button wh-theme-d2 wh-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+          </div>
+          
+          <div class="wh-container wh-card wh-white wh-round wh-margin"><br>
+            <img src="/whimages/avatar5.png" alt="Avatar" class="wh-left wh-circle wh-margin-right" style="width:60px">
+            <span class="wh-right wh-opacity">16 min</span>
+            <h4>Jane Doe</h4><br>
+            <hr class="wh-clear">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button type="button" class="wh-button wh-theme-d1 wh-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+            <button type="button" class="wh-button wh-theme-d2 wh-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+          </div>  
+    
+          <div class="wh-container wh-card wh-white wh-round wh-margin"><br>
+            <img src="/whimages/avatar6.png" alt="Avatar" class="wh-left wh-circle wh-margin-right" style="width:60px">
+            <span class="wh-right wh-opacity">32 min</span>
+            <h4>Angie Jane</h4><br>
+            <hr class="wh-clear">
+            <p>Have you seen this?</p>
+            <img src="/whimages/nature.jpg" style="width:100%" class="wh-margin-bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button type="button" class="wh-button wh-theme-d1 wh-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+            <button type="button" class="wh-button wh-theme-d2 wh-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+          </div> 
+          
+        <!-- End Middle Column -->
+        </div>
+        
+        <!-- Right Column -->
+        <div class="wh-col m2">
+          <div class="wh-card wh-round wh-white wh-center">
+            <div class="wh-container">
+              <p>Upcoming Events:</p>
+              <img src="/whimages/forest.jpg" alt="Forest" style="width:100%;">
+              <p><strong>Holiday</strong></p>
+              <p>Friday 15:00</p>
+              <p><button class="wh-button wh-block wh-theme-l4">Info</button></p>
+            </div>
+          </div>
+          <br>
+          
+          <div class="wh-card wh-round wh-white wh-center">
+            <div class="wh-container">
+              <p>Friend Request</p>
+              <img src="/whimages/avatar6.png" alt="Avatar" style="width:50%"><br>
+              <span>Jane Doe</span>
+              <div class="wh-row wh-opacity">
+                <div class="wh-half">
+                  <button class="wh-button wh-block wh-green wh-section" title="Accept"><i class="fa fa-check"></i></button>
+                </div>
+                <div class="wh-half">
+                  <button class="wh-button wh-block wh-red wh-section" title="Decline"><i class="fa fa-remove"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          <div class="wh-card wh-round wh-white wh-padding-16 wh-center">
+            <p>ADS</p>
+          </div>
+          <br>
+          
+          <div class="wh-card wh-round wh-white wh-padding-32 wh-center">
+            <p><i class="fa fa-bug wh-xxlarge"></i></p>
+          </div>
+          
+        <!-- End Right Column -->
+        </div>
+        
+      <!-- End Grid -->
+      </div>
+      
+    <!-- End Page Container -->
+    </div>
+    <br>
+    
+    <!-- Footer -->
+   
+    
+    <footer class="wh-container">
+        <p>&copy; 2022 Where are the books at!</p>
+    </footer>
+     
+ 
+    
+    </body>
+    </html> 
+    

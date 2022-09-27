@@ -1,0 +1,9 @@
+.html, body,h1,h2,h3,h4,h5,p{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+bar-item{
+    color: hotpink;
+    padding: 25%;
+}
