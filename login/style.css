@@ -1,5 +1,5 @@
 
-    
+   
 
 button{
     color: aliceblue;
@@ -9,31 +9,65 @@ button{
 img{
     border-radius: 250%;
 }
-.h1,h2,h3,h4,p{
+.h1,h2,h3,#slides,p{
     font-family: 'Gloria Hallelujah', cursive;
     font-family: 'Permanent Marker', cursive;
     color: black;
 }
-.gradient-custom-2 {
-    /* fallback for old browsers */
+
+#slides {
+    float: right;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px;
+  
+}   
+
+.slide {
+    position:absolute;
     
-    background: #fc90e6;
-    
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ee24a0, #d836ad, #dd3687, #b44561);
-    
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #da24ee, #d836c0, #dd368f, #b44593);
-    }
-    
+   
+   
+    opacity: 0;
+   
+    float: right;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 20px;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: rgb(245, 14, 145);
+}
+
+
+   
     @media (min-width: 768px) {
-    .gradient-form {
-    height: 100vh !important;
+        .gradient-form {
+        height: 100vh !important;
+        }
+        }
+        @media (min-width: 769px) {
+        .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        }
     }
-    }
-    @media (min-width: 769px) {
-    .gradient-custom-2 {
-    border-top-right-radius: .3rem;
-    border-bottom-right-radius: .3rem;
-    }
-    }
+ 
+    
+    
+   
