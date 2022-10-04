@@ -4,12 +4,12 @@
   
   /* Style the body */
   body {
+
 	font-family:'Courier New', Courier, monospace;
 	margin: 0;
+
   }
-  img{
-	border-radius: 50%;
-  }
+
   
   /* Header/logo Title */
   .header {
@@ -74,7 +74,7 @@
   .side {
 	-ms-flex: 30%; /* IE10 */
 	flex: 30%;
-	background-color: #f78ed8;
+
 	padding: 20px;
   }
   
@@ -87,12 +87,7 @@
   }
   
   /* Fake image, just for this example */
-  .fakeimg {
-	background-color: rgb(14, 8, 8);
-	width: 100%;
-	padding: 20px;
-  }
-  
+
   /* Footer */
   .footer {
 	padding: 20px;
